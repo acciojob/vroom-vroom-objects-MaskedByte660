@@ -30,7 +30,7 @@ Car.prototype.getMakeModel = function(){
 // 	}
 // }
 
-SportsCar.prototype.getTopSpeed = function(){
+SportsCar.getTopSpeed = function(){
 	return this.topSpeed;
 }
 
